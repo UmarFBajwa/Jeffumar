@@ -1,9 +1,10 @@
+
 body {
-  max-width: 960px;
+    max-width: 960px;
 }
 
 #main {
-  width: 756px;
+  width: 78%;
   display: inline-block;
   float: right;
 }
@@ -25,7 +26,8 @@ cite {
 }
 
 #external-links ul {
-  width: 200px;
+  min-width: 15%;
+  max-width: 20%;
   list-style-type: none;
   padding-left: 0px;
 }
@@ -46,4 +48,10 @@ figure {
 figcaption {
   font-style: italic;
   text-align: right;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: hotpink;
+  }
 }
