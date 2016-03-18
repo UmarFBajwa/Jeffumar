@@ -55,3 +55,15 @@ figcaption {
     background-color: hotpink;
   }
 }
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: hotpink;
+  }
+}
