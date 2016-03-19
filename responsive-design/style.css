@@ -22,12 +22,11 @@ cite {
 }
 
 #external-links {
+  width: 20%;
   float: left;
 }
 
 #external-links ul {
-  min-width: 15%;
-  max-width: 20%;
   list-style-type: none;
   padding-left: 0px;
 }
@@ -52,7 +51,7 @@ figcaption {
 
 @media screen and (max-width: 500px) {
   body {
-    background-color: blue;
+    background-color: lightblue;
   }
 }
 
@@ -63,7 +62,10 @@ figcaption {
 }
 
 @media screen and (max-width: 500px) {
-  body {
-    background-color: hotpink;
+  #external-links {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-shadow: white 0 -2px;
   }
 }
